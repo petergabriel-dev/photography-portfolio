@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 5rem;
+    background-color: black;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.header.hidden{
+    transform: translateY(-100%);
+}
+
+.header h1{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
