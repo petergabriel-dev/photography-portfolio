@@ -4,5 +4,25 @@
     margin: 2rem;
     padding: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    background-color: beige;
+}
+
+.contact-form{
+    width: 25%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 1rem;
+}
+
+.form input{
+    width: 100%;
+}
+
+.form input[type=message]{
+    height: 15vh;
 }

@@ -9,6 +9,12 @@ footer {
     color: white;
 }
 
-.form{
-    padding-right: 25%;
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li{
+    cursor: pointer;
 }
