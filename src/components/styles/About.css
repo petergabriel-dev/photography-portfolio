@@ -1,7 +1,7 @@
 .about {
     display: flex;
-    margin: 2rem 16rem;
-    padding: 2rem 16rem;
+    margin: 4rem 16rem;
+    padding: 4rem 8rem;
     justify-content: center;
     gap: 8rem;
 }

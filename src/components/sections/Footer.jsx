@@ -30,11 +30,11 @@ function Footer(){
                     <li>LinkedIn</li>
                 </ul>
             </div>
-            <div>
+            <div className="form">
                 <h2>Email Me</h2>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Name: </label>
                         <input 
                             type="text"
                             id="name"
@@ -46,7 +46,7 @@ function Footer(){
                             
                     </div>
                     <div>
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Email: </label>
                         <input 
                             type="email"
                             id="email"
@@ -57,7 +57,7 @@ function Footer(){
                         />
                     </div>
                     <div>
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Message: </label>
                         <input 
                             type="message"
                             id="message"
