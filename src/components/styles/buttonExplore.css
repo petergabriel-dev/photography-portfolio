@@ -1,0 +1,21 @@
+.button-explore-black{
+    width: 16rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-explore-white{
+    width: 16rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
