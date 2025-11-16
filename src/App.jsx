@@ -1,19 +1,28 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import './App.css'
+import ContactPage from './components/pages/ContactPage'
+import HomePage from './components/pages/HomePage'
+
 import Header from './components/sections/Header'
 import Footer from './components/sections/Footer'
-import Hero from './components/sections/Hero'
-import About from './components/sections/About'
-import Gallery from './components/sections/Gallery'
-import Contact from './components/sections/Contact'
+
+const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <HomePage/>,
+    },
+    {
+      path: '/contact',
+      element: <ContactPage/>,
+    }
+])
 
 function App() {
   return (
     <div>
       <Header />
-      <Hero />
-      <Gallery />
-      <About />
-      <Contact />
+      <RouterProvider router={router} />
       <Footer />
     </div>
   )
