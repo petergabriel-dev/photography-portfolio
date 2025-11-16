@@ -19,3 +19,7 @@
     cursor: pointer;
     text-align: center;
 }
+
+.button-contactme-white .contact-link{
+    color: black;
+}

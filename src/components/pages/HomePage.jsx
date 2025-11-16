@@ -1,7 +1,7 @@
 import Hero from "../sections/Hero"
-import Header from "../sections/Header"
 import Gallery from "../sections/Gallery"
 import About from "../sections/About"
+import Contact from "../sections/Contact"
 
 function HomePage(){
     return(
@@ -9,6 +9,7 @@ function HomePage(){
             <Hero/>
             <Gallery/>
             <About/>
+            <Contact/>
         </div>
     )
 }

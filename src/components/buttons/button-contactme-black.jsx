@@ -1,4 +1,4 @@
-import '../styles/buttonContactMe.css'
+import './buttonContactMe.css'
 
 function ContactMeBlackbutton(){
 

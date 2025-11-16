@@ -1,19 +1,12 @@
-import { useNavigate } from 'react-router-dom'
-import '../styles/buttonContactMe.css'
+import { Link } from 'react-router-dom'
+import './buttonContactMe.css'
 
 function ContactMeWhitebutton(){
-    const navigate = useNavigate()
-
-    const handleClick = () => {
-        navigate('/contact')
-    }
-
     return(
-        <div className="button-contactme-white" onClick={handleClick}>
-            <h3>Contact Me</h3>
+        <div className="button-contactme-white">
+            <Link to="/contact" className='contact-link'><h3>Contact Me</h3></Link>
         </div>
     )
-
 }
 
 export default ContactMeWhitebutton

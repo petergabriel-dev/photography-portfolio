@@ -14,3 +14,12 @@ nav li{
 nav li:hover{
     opacity: 0.7;
 }
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    opacity: 0.7;
+}
