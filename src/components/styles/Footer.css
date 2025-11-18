@@ -10,11 +10,14 @@ footer {
 }
 
 footer ul{
-    margin: 0;
-    padding: 0;
+    margin: 0 2rem;
+    padding: 1rem 0;
     list-style: none;
+    display: flex;
+    gap: 2rem;
 }
 
 footer li{
     cursor: pointer;
+    color: white;
 }

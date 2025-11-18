@@ -6,10 +6,9 @@ function Footer(){
             <div>
                 <h3>Socials</h3>
                 <ul>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>Threads</li>
-                    <li>LinkedIn</li>
+                    <a href="https://www.facebook.com/plolm8"><li>Facebook</li></a>
+                    <a href="https://www.instagram.com/poter.gab/"><li>Instagram</li></a>
+                    <a href="https://www.threads.com/@poter.gab"><li>Threads</li></a>
                 </ul>
             </div>
         </footer>

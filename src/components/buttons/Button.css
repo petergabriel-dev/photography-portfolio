@@ -1,0 +1,39 @@
+.btn {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4rem;
+  margin: 1rem;
+  transition: transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  transform: scale(1.05);
+  text-decoration: none;
+  outline: none;
+}
+
+.btn h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+}
+
+.btn-dark:hover {
+  color: rgb(198, 198, 198);
+}
+
+.btn-light {
+  background-color: white;
+  color: black;
+}
+
+.btn-light:hover {
+  color: rgb(55, 55, 55);
+}

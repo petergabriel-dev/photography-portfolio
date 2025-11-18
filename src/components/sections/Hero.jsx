@@ -1,6 +1,5 @@
 import '../styles/Hero.css'
-import ContactMeWhitebutton from '../buttons/button-contactme-white'
-import ExploreBlackbutton from '../buttons/button-explore-black'
+import Button from '../buttons/Button.jsx'
 
 function Hero(){
     return(
@@ -10,8 +9,8 @@ function Hero(){
                 <h2>by Peter Gabriel</h2>
                 <p>A photography portfolio</p>
                 <div className='hero-cta-buttons'>
-                    <ExploreBlackbutton/>
-                    <ContactMeWhitebutton/>
+                    <Button theme='dark' to='/'>Explore</Button>
+                    <Button theme='light' to='/contact'>Contact</Button>
                 </div>
             </div>
         </div>
